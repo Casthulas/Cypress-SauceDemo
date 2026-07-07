@@ -1,0 +1,7 @@
+node_modules
+cypress.env.json
+fixtures
+cypress/e2e/1-getting-started
+cypress/e2e/2-advanced-examples
+cypress/e2e/3-testes-alura
+videos
