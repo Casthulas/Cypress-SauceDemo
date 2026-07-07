@@ -5,15 +5,17 @@ Este projeto efetua uma série de testes nos usuários disponíveis do https://w
 
 ## ▶️ Como executar os testes
 
-### 1. Abra o projeto
+### 1. Clone e abra o projeto
 
+git clone https://github.com/Casthulas/Cypress-SauceDemo.git
 Abra a pasta do projeto no **Visual Studio Code**.
 
 ### 2. Inicie o Cypress
 
-Abra o terminal na raiz do projeto e execute:
+Abra o terminal na raiz do projeto no VsCode e execute:
 
 ```bash
+npm install
 npx cypress open
 ```
 
@@ -21,9 +23,9 @@ npx cypress open
 
 Na tela do Cypress:
 
-- Selecione **Chrome**.
+- Selecione **Um navegador**.
 
-### 4. Escolha o tipo de teste
+### 4. Escolha o tipo de teste e execute
 
 - TestaEmError_user.cy.js // Falhar em todos os testes possíveis.
 - TestaTodosUsuarios.cy.js // Revisa o login dos usuários.
@@ -31,11 +33,6 @@ Na tela do Cypress:
 - TestesEmPerformance_glitch_user.cy.js // Simula ações com latência alta
 - TestesEmProblem_user.cy.js // Simula comportamento de compra e localiza alguns erros.
 - TestesEmStandard_user.cy.js // Simula diversos testes de funcionamento para assegurar o comportamento correto da ferramenta.
-
-
-### 5. Execute um teste
-
----
 
 
 ## 🛠️ Tecnologias utilizadas
@@ -49,18 +46,5 @@ Na tela do Cypress:
 ## 📌 Observações
 
 - Execute os comandos na raiz do projeto.
-- Certifique-se de que todas as dependências foram instaladas antes da execução:
-
-```bash
-npm install
-```
-
-- Para executar os testes em modo headless:
-
-```bash
-npx cypress run
-```
-
----
 
 Projeto desenvolvido para estudos de automação de testes utilizando Cypress.
